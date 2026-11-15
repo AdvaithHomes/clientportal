@@ -1,0 +1,9 @@
+# Private portal (everything is behind a login).
+# Crawling is allowed on purpose: search engines must be able to read the
+# <meta name="robots" content="noindex, nofollow"> tag in index.html to keep the
+# portal out of results. A "Disallow: /" here would hide that tag, and a blocked
+# URL can still appear in search if it is linked from elsewhere.
+# For the strongest protection also send the HTTP header "X-Robots-Tag: noindex, nofollow"
+# from the web server (see advaithHomesClientPortalDocs/backend/wordpress-backend-design.md).
+User-agent: *
+Allow: /
