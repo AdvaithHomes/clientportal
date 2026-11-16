@@ -1,0 +1,1 @@
+import{j as n,L as s}from"./index-DMugajsJ.js";function a({to:r,children:t,className:e}){return/^https?:/.test(r)?n.jsx("a",{href:r,target:"_blank",rel:"noopener noreferrer",className:e,children:t}):n.jsx(s,{to:r,className:e,children:t})}export{a as S};

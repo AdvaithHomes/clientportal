@@ -1,0 +1,1 @@
+import{j as e}from"./index-DMugajsJ.js";function n({icon:a,title:r,actions:i,children:c}){const s=i||c;return e.jsxs("div",{className:`page-header ${s?"":"page-header-no-actions"}`,children:[e.jsx("div",{className:"page-header-text",children:e.jsxs("h1",{children:[a&&e.jsx(a,{size:22}),r]})}),s&&e.jsx("div",{className:"page-header-actions",children:s})]})}export{n as P};

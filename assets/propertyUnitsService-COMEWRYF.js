@@ -1,0 +1,1 @@
+import{G as r}from"./index-DMugajsJ.js";const p=(t,s={})=>{const e=typeof t=="object"&&t!==null?t:{clientId:t};return r.auth.get("/property-units",{query:e,...s})},a=()=>r.auth.get("/property-statuses");export{a,p as g};
